@@ -1,0 +1,18 @@
+checkEvery: 10 # In ticks
+
+regions:
+  example:
+    enter-actions:
+      requirements:
+        'permission':
+          requirement-type: 'HAS_PERMISSION'
+          input: 'actionregion.example.join'
+      actions:
+        - '[MESSAGE] hi'
+    leave-actions:
+      requirements:
+        'permission':
+          requirement-type: 'HAS_PERMISSION'
+          input: 'actionregion.example.leave'
+      actions:
+        - '[MESSAGE] bye'
