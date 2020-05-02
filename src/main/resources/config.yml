@@ -1,5 +1,10 @@
 checkEvery: 10 # In ticks
 
+messages:
+  noPermission: '&cYou don''t have the permission to execute this command'
+  usage: '&cUsage: /actionregions reload'
+  reloaded: '&aPlugin reloaded'
+
 regions:
   example:
     enter-actions:

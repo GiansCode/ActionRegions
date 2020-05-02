@@ -19,6 +19,8 @@ public class RegionManager {
      * This method enables the RegionManager (loads all the TrackedRegions from the config file)
      */
     public void enable() {
+        regions.clear();
+        
         ConfigurationSection section = plugin.getConfig().getConfigurationSection("regions");
         if (section == null)
             return;

@@ -1,5 +1,8 @@
 name: ActionRegions
 author: xQuickGlare
-version: 1.0
+version: 1.0.1
 main: io.alerium.actionregions.ActionRegionsPlugin
 depend: [WorldGuard]
+commands:
+  actionregions:
+    description: Main command
